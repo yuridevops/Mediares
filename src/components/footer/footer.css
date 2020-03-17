@@ -1,0 +1,14 @@
+.footer {
+    bottom: 0;
+    position: fixed;
+    color: #999;
+    text-align: center;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(69,86,102,1) 0%, rgba(34,34,34,1) 90% );
+    border-top: .05rem solid #e5e5e5;
+    margin-top: -0.25rem !important;
+    width: 100%;
+  }
+  .footer p:last-child {
+    margin-bottom: 0;
+  }
+
