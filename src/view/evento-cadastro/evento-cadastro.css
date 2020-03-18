@@ -7,3 +7,15 @@
     background-color: #f21667;
     color: #fff;
 }
+
+.spinner{
+    align-items: center;
+    justify-content: center;
+}
+
+.form-cadastro{
+    max-width: 800px;
+    align-items: center;
+    justify-content: center;
+    
+}
