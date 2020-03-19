@@ -52,7 +52,7 @@ function NovoUsuario() {
         <>
             <Navbar/>
 
-            <div className="form-cadastro">
+            <div className="form-cadastro mx-auto">
                 <form className="text-center form-login mx-auto mt-5">
                     <h1 className="h3 mb-3 text-black font-weight-bold">Cadastro</h1>
                     <input onChange={(e) => setEmail(e.target.value)} type="email" className="form-control my-2" placeholder="Email" />

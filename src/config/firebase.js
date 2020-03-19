@@ -1,13 +1,14 @@
 import firebase from 'firebase'
 
 const firebaseConfig = {
-    apiKey: "AIzaSyD0HHRKdCjS6PhJoW1G3H_XQgqG4Xe26GA",
-    authDomain: "eventos-31453.firebaseapp.com",
-    databaseURL: "https://eventos-31453.firebaseio.com",
-    projectId: "eventos-31453",
-    storageBucket: "eventos-31453.appspot.com",
-    messagingSenderId: "269735721211",
-    appId: "1:269735721211:web:df56c05b9f0a941bcfd85e"
-  };
+  apiKey: "AIzaSyDQ3C83GiyWCIFwsPlcEUopKguMDj60_oM",
+  authDomain: "mediares-site.firebaseapp.com",
+  databaseURL: "https://mediares-site.firebaseio.com",
+  projectId: "mediares-site",
+  storageBucket: "mediares-site.appspot.com",
+  messagingSenderId: "485831653152",
+  appId: "1:485831653152:web:30128de50b825580528945"
+};
+
   // Initialize Firebase
   export default firebase.initializeApp(firebaseConfig);

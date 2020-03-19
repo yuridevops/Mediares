@@ -28,7 +28,7 @@ function EventoCadastro() {
         storage.ref(`imagens/${foto.name}`).put(foto).then(() => {
             setCarregando(true)
             console.log()
-            db.collection('teste').add({
+            db.collection('eventos').add({
                 titulo: titulo,
                 tipo: tipo,
                 detalhes: detalhes,
